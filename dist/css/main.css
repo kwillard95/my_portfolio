@@ -85,6 +85,9 @@ img {
     #main-nav a.current {
       border-color: #ffbc00; }
 
+.txt-type .txt {
+  border-right: 0.1rem solid #fff; }
+
 #header-home {
   background: url("../img/showcase.jpg") no-repeat center right/cover;
   height: 100vh;
