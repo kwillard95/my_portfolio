@@ -163,3 +163,39 @@ img {
   #home-b .stats.stats-number {
     font-size: 2rem;
     font-weight: bold; }
+
+#home-c .process {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1.5rem;
+  text-align: center; }
+  #home-c .process-icon {
+    border-radius: 50%;
+    background: #333;
+    color: #fff;
+    padding: 2rem;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    position: relative;
+    transition: all 1s; }
+    #home-c .process-icon:hover {
+      background-color: #ffbc00;
+      width: 70px;
+      height: 70px;
+      line-height: 70px; }
+      #home-c .process-icon:hover .process-step {
+        background-color: #333; }
+  #home-c .process-step {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 20px;
+    background: #ffbc00;
+    border-radius: 50%;
+    height: 8px;
+    width: 8px;
+    line-height: 8px;
+    padding: 1rem;
+    transition: all 1s; }
